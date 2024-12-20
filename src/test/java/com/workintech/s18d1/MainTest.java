@@ -59,7 +59,7 @@ class MainTest {
         Burger burger = new Burger();
         burger.setId(1L);
         burger.setName("Vegan Delight");
-        burger.setPrice(8.99);
+        burger.setPrice(8);
         burger.setIsVegan(true);
         burger.setBreadType(BreadType.WRAP);
         burger.setContents("Lettuce, Tomato, Vegan Patty, Avocado");
@@ -67,7 +67,7 @@ class MainTest {
 
         assertEquals(1L, burger.getId());
         assertEquals("Vegan Delight", burger.getName());
-        assertEquals(8.99, burger.getPrice());
+        assertEquals(8, burger.getPrice());
         assertEquals(true, burger.getIsVegan());
         assertEquals(BreadType.WRAP, burger.getBreadType());
         assertEquals("Lettuce, Tomato, Vegan Patty, Avocado", burger.getContents());
